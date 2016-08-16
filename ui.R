@@ -14,9 +14,9 @@ body <- dashboardBody(
   fluidRow(
     column(width = 9,
            box(width = NULL, solidHeader = TRUE,
-               h1("A tour of GA reporting API v4"),
-               helpText("A demonstration of some of the new features available over the traditional v3 API."),
-               helpText("Start by logging in to your Google Analytics account."),
+               h1("SEO Dashboard and tools"),
+               helpText("A demonstration of usefull R and Google API integration"),
+               helpText("Start by logging in to your Google account"),
                googleAuthUI("login"),
                authDropdownUI("auth_menu")
            ),
